@@ -9,6 +9,8 @@
 - [Official](#official)
 - [Command Organization](#command-organization)
 - [Configuration and Frameworks](#configuration-and-frameworks)
+- [Interactivity and Styling](#interactivity-and-styling)
+- [Utilities](#utilities)
 - [Documentation Generation](#documentation-generation)
 - [Tutorials and Articles](#tutorials-and-articles)
 - [Projects Using yargs](#projects-using-yargs)
@@ -29,14 +31,26 @@
 ## Command Organization
 
 - [yargs-file-commands](https://github.com/bhouston/yargs-file-commands) - File-system-based command routing, where file names and directories define nested commands.
+- [landlubber](https://github.com/razor-x/landlubber) - Typed command modules with built-in pino logging.
 
 ## Configuration and Frameworks
 
+- [@ariestools/cli-kit-yargs](https://www.npmjs.com/package/@ariestools/cli-kit-yargs) - Adapter for building reusable command-line applications with cli-kit.
 - [Black Flag](https://github.com/Xunnamius/black-flag) - Declarative framework for building deeply hierarchical commands on top of yargs.
+
+## Interactivity and Styling
+
+- [@jercle/yargonaut](https://github.com/jercle/yargonaut) - Decorates help output with chalk styles and figlet fonts.
+- [yargs-interactive](https://github.com/nanovazquez/yargs-interactive) - Prompts for missing arguments interactively using Inquirer.
+
+## Utilities
+
+- [@bpinternal/yargs-extra](https://www.npmjs.com/package/@bpinternal/yargs-extra) - Parses options from environment variables and generates JSON Schema from option definitions.
 
 ## Documentation Generation
 
 - [@clidoc/yargs](https://github.com/bhouston/clidoc/tree/main/packages/yargs) - Generates OpenCLI documents and CLI reference docs from yargs command modules.
+- [cli-docs-generator](https://github.com/EliseevNP/cli-docs-generator) - Generates Markdown docs for a yargs CLI.
 - [yargs-help-output](https://github.com/CrowdStrike/yargs-help-output) - Updates Markdown docs with the full help output of a yargs CLI.
 
 ## Tutorials and Articles
